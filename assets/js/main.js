@@ -92,7 +92,7 @@ function getNavigation(){
 
 }
 if(url!='/regal/index.html' && url!='/regal/'){
-    let curentUrl=url.split('/')[1]
+    let curentUrl=url.split('/regal/')[1]
     let index=links.indexOf(curentUrl);
 
     document.getElementById('currentPage').innerHTML=linksNames[index];
